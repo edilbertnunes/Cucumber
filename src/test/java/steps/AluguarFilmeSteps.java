@@ -1,5 +1,7 @@
 package steps;
 
+import cucumber.api.DataTable;
+import cucumber.api.PendingException;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
@@ -12,6 +14,7 @@ import static org.junit.Assert.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
 
 import servicos.AluguelService;
 import utils.DateUtils;
@@ -22,7 +25,7 @@ public class AluguarFilmeSteps {
 	private AluguelService aluguel = new AluguelService();
 	private NotaAluguel nota;
 	private String erro;
-	private TipoAluguel tipoAluguel = TipoAluguel.COMUM;
+	private TipoAluguel tipoAluguel;
 	
 	@Dado("^um filme com estoque de (\\d+) unidades$")
 	public void umFilmeComEstoqueDeUnidades(int arg1) throws Throwable {
@@ -69,7 +72,7 @@ public class AluguarFilmeSteps {
 
 	@Então("^a data de entrega será em (\\d+) dias?$")
 	public void aDataDeEntregaSeráEmDias(int arg1) throws Throwable {
-	   Date dataEsperada = DateUtils.obterDataDiferencaDiaS(arg1);
+	   Date dataEsperada = DateUtils.obterDataDiferencaDias(arg1);
 	   Date dataReal = nota.getDataEntrega();
 	   
 	   DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
@@ -80,6 +83,21 @@ public class AluguarFilmeSteps {
 	@Então("^a pontuação será de (\\d+) pontos$")
 	public void aPontuaçãoSeráDePontos(int arg1) throws Throwable {
 	    assertEquals(arg1, nota.getPontuacao());
+	}
+
+	@Dado("^um filme$")
+	public void umFilme(DataTable table) throws Throwable {
+		Map<String, String> map = table.asMap(String.class, String.class);
+		filme = new Filme();
+		filme.setEstoque(Integer.parseInt(map.get("estoque")));
+		filme.setAluguel(Integer.parseInt(map.get("preco")));
+		String tipo = map.get("tipo");
+		tipoAluguel = tipo.equals("semanal")? TipoAluguel.SEMANAL: tipo.equals("extendido")? TipoAluguel.EXTENDIDO: TipoAluguel.COMUM;
+	}
+
+	@Então("^o preço do aluguel será R (\\d+)$")
+	public void oPreçoDoAluguelSeráR(int arg1) throws Throwable {
+
 	}
 
 
