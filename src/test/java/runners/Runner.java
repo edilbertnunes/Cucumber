@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
         glue = {"steps"},
         tags = {"@esse"},
 		// mostra no console o cenário igual o plugin do Cucumber
-		plugin = "pretty", 
+		plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
 		// retira a configuração para impressão colorida no console (pode criar caracteres especiais)
 		monochrome = false, 
 		
