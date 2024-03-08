@@ -1,2 +1,9 @@
-C:\Users\edinunes\eclipse-workspace\java-coder\CursoCucumber\src\test\java\AprenderCucumber.java
-C:\Users\edinunes\eclipse-workspace\java-coder\CursoCucumber\src\test\java\Runner.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\entidades\Filme.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\entidades\TipoAluguel.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\runners\RunnerTest.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\steps\AluguarFilmeSteps.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\entidades\NotaAluguel.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\servicos\AluguelService.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\steps\AprenderCucumberSteps.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\utils\DateUtils.java
+C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\src\test\java\converters\DateConverter.java

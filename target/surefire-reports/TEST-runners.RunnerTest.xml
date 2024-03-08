@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunnerTest" time="0.668" tests="43" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\target\test-classes;C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\target\classes;C:\Users\edinunes\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\edinunes\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\edinunes\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\edinunes\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\edinunes\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\edinunes\.m2\repository\io\cucumber\cucumber-junit\1.2.6\cucumber-junit-1.2.6.jar;C:\Users\edinunes\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\edinunes\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\edinunes\AppData\Local\Temp\1\surefire8124655534000682475\surefirebooter-20240308121120152_3.jar C:\Users\edinunes\AppData\Local\Temp\1\surefire8124655534000682475 2024-03-08T12-11-19_405-jvmRun1 surefire-20240308121120152_1tmp surefire_0-20240308121120152_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\target\test-classes;C:\Users\edinunes\dev\workspace-intellij\CursoCucumber\target\classes;C:\Users\edinunes\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\edinunes\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\edinunes\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\edinunes\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\edinunes\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\edinunes\.m2\repository\io\cucumber\cucumber-junit\1.2.6\cucumber-junit-1.2.6.jar;C:\Users\edinunes\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\edinunes\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\edinunes"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre"/>
+    <property name="basedir" value="C:\Users\edinunes\dev\workspace-intellij\CursoCucumber"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\edinunes\AppData\Local\Temp\1\surefire8124655534000682475\surefirebooter-20240308121120152_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\resources.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\rt.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\sunrsasign.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\jsse.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\jce.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\charsets.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\jfr.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_382-b05"/>
+    <property name="user.name" value="edinunes"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\edinunes\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\edinunes\AppData\Local\Temp\1\"/>
+    <property name="java.version" value="1.8.0_382"/>
+    <property name="user.dir" value="C:\Users\edinunes\dev\workspace-intellij\CursoCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk1.8.0_382\bin;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\edinunes\Edilbert\Apps\VSCode\bin;C:\Users\edinunes\.jabba\bin;C:\Program Files\dotnet\;C:\Users\edinunes\Apps\maven\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Git\cmd;C:\Program Files\NVM;NVM_SYMLINK%;C:\Program Files\Amazon Corretto\jdk1.8.0_382\bin;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\edinunes\Edilbert\Apps\VSCode\bin;C:\Users\edinunes\.jabba\bin;C:\Program Files\dotnet\;C:\Users\edinunes\Apps\maven\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Git\cmd;C:\Program Files\Amazon Corretto\jdk1.8.0_382;C:\Users\edinunes\Edilbert\Apps\nvm;C:\Program Files\nodejs;C:\Users\edinunes\Apps\maven;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\edinunes\AppData\Local\Microso;C:\Users\edinunes\AppData\Local\Microsoft\WindowsApps;C:\Users\edinunes\AppData\Local\GitHubDesktop\bin;C:\Users\edinunes\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.382-b05"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Dado um filme" classname="Cenário: Deve alugar um filme com sucesso" time="0.003">
+    <system-out><![CDATA[# language: pt
+@esse
+Funcionalidade: Alugar Filme
+  Como um usuário
+  Eu quero cadastrar alugueis de filmes
+  Para controlar preços e datas de entrega
+]]></system-out>
+  </testcase>
+  <testcase name="Quando alugar" classname="Cenário: Deve alugar um filme com sucesso" time="0.0"/>
+  <testcase name="Então o preço do aluguel será R 3" classname="Cenário: Deve alugar um filme com sucesso" time="0.001"/>
+  <testcase name="E a data de entrega será em 1 dia" classname="Cenário: Deve alugar um filme com sucesso" time="0.0"/>
+  <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Deve alugar um filme com sucesso" time="0.0"/>
+  <testcase name="" classname="Cenário: Deve alugar um filme com sucesso" time="0.001"/>
+  <testcase name="Dado um filme com estoque de 0 unidades" classname="Cenário: Não deve alugar filme sem estoque" time="0.0">
+    <system-out><![CDATA[
+  Cenário: Deve alugar um filme com sucesso &amp#27;[90m# src/test/resources/features/alugarFilme.feature:9&amp#27;[0m
+    &amp#27;[32mDado &amp#27;[0m&amp#27;[32mum filme&amp#27;[0m                           &amp#27;[90m# AluguarFilmeSteps.umFilme(DataTable)&amp#27;[0m
+    &amp#27;[32mQuando &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                           &amp#27;[90m# AluguarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo preço do aluguel será R &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m       &amp#27;[90m# AluguarFilmeSteps.oPreçoDoAluguelSeráR(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m dia&amp#27;[0m       &amp#27;[90m# AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mo estoque do filme será &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m unidade&amp#27;[0m     &amp#27;[90m# AluguarFilmeSteps.oEstoqueDoFilmeSeráUnidade(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Quando alugar" classname="Cenário: Não deve alugar filme sem estoque" time="0.0"/>
+  <testcase name="Então não será possível por falta de estoque" classname="Cenário: Não deve alugar filme sem estoque" time="0.0"/>
+  <testcase name="E o estoque do filme será 0 unidade" classname="Cenário: Não deve alugar filme sem estoque" time="0.0"/>
+  <testcase name="" classname="Cenário: Não deve alugar filme sem estoque" time="0.001"/>
+  <testcase name="Dado um filme com estoque de 2 unidades" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.0">
+    <system-out><![CDATA[
+  Cenário: Não deve alugar filme sem estoque     &amp#27;[90m# src/test/resources/features/alugarFilme.feature:19&amp#27;[0m
+    &amp#27;[32mDado &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m      &amp#27;[90m# AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mQuando &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                &amp#27;[90m# AluguarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mnão será possível por falta de estoque&amp#27;[0m &amp#27;[90m# AluguarFilmeSteps.nãoSeráPossívelPorFaltaDeEstoque()&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mo estoque do filme será &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m unidade&amp#27;[0m          &amp#27;[90m# AluguarFilmeSteps.oEstoqueDoFilmeSeráUnidade(int)&amp#27;[0m
+
+  Esquema do Cenário: Deve dar condições conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugarFilme.feature:26&amp#27;[0m
+    &amp#27;[36mDado &amp#27;[0m&amp#27;[36mum filme com estoque de 2 unidades&amp#27;[0m
+    &amp#27;[36mE &amp#27;[0m&amp#27;[36mque o preço do aluguel seja R$ <preco>&amp#27;[0m
+    &amp#27;[36mE &amp#27;[0m&amp#27;[36mque o tipo do aluguel seja <tipo>&amp#27;[0m
+    &amp#27;[36mQuando &amp#27;[0m&amp#27;[36malugar&amp#27;[0m
+    &amp#27;[36mEntão &amp#27;[0m&amp#27;[36mo preço do aluguel será R$ <valor>&amp#27;[0m
+    &amp#27;[36mE &amp#27;[0m&amp#27;[36ma data de entrega será em <qtdDias> dias&amp#27;[0m
+    &amp#27;[36mE &amp#27;[0m&amp#27;[36ma pontuação será de <pontuacao> pontos&amp#27;[0m
+
+    Exemplos: 
+]]></system-out>
+  </testcase>
+  <testcase name="E que o preço do aluguel seja R$ 4" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.0"/>
+  <testcase name="E que o tipo do aluguel seja extendido" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.0"/>
+  <testcase name="Quando alugar" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.0"/>
+  <testcase name="Então o preço do aluguel será R$ 8" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.0"/>
+  <testcase name="E a data de entrega será em 3 dias" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.001"/>
+  <testcase name="E a pontuação será de 2 pontos" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.0"/>
+  <testcase name="" classname="| 4 | extendido | 8 | 3 | 2 |" time="0.0"/>
+  <testcase name="Dado um filme com estoque de 2 unidades" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0">
+    <system-out><![CDATA[
+  @esse
+  Esquema do Cenário: Deve dar condições conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugarFilme.feature:37&amp#27;[0m
+    &amp#27;[32mDado &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                       &amp#27;[90m# AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mque o preço do aluguel seja R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.queOPreçoDoAluguelSejaR$(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mque o tipo do aluguel seja &amp#27;[0m&amp#27;[32m&amp#27;[1mextendido&amp#27;[0m                        &amp#27;[90m# AluguarFilmeSteps.queOTipoDoAluguelSejaExtendido(String)&amp#27;[0m
+    &amp#27;[32mQuando &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                                 &amp#27;[90m# AluguarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo preço do aluguel será R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m dias&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32ma pontuação será de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m pontos&amp#27;[0m                                &amp#27;[90m# AluguarFilmeSteps.aPontuaçãoSeráDePontos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="E que o preço do aluguel seja R$ 4" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0"/>
+  <testcase name="E que o tipo do aluguel seja comum" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0"/>
+  <testcase name="Quando alugar" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0"/>
+  <testcase name="Então o preço do aluguel será R$ 4" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0"/>
+  <testcase name="E a data de entrega será em 1 dias" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0"/>
+  <testcase name="E a pontuação será de 1 pontos" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0"/>
+  <testcase name="" classname="| 4 | comum | 4 | 1 | 1 |" time="0.0"/>
+  <testcase name="Dado um filme com estoque de 2 unidades" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0">
+    <system-out><![CDATA[
+  @esse
+  Esquema do Cenário: Deve dar condições conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugarFilme.feature:38&amp#27;[0m
+    &amp#27;[32mDado &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                       &amp#27;[90m# AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mque o preço do aluguel seja R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.queOPreçoDoAluguelSejaR$(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mque o tipo do aluguel seja &amp#27;[0m&amp#27;[32m&amp#27;[1mcomum&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.queOTipoDoAluguelSejaExtendido(String)&amp#27;[0m
+    &amp#27;[32mQuando &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                                 &amp#27;[90m# AluguarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo preço do aluguel será R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m dias&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32ma pontuação será de &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m pontos&amp#27;[0m                                &amp#27;[90m# AluguarFilmeSteps.aPontuaçãoSeráDePontos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="E que o preço do aluguel seja R$ 10" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0"/>
+  <testcase name="E que o tipo do aluguel seja extendido" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0"/>
+  <testcase name="Quando alugar" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0"/>
+  <testcase name="Então o preço do aluguel será R$ 20" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0"/>
+  <testcase name="E a data de entrega será em 3 dias" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0"/>
+  <testcase name="E a pontuação será de 2 pontos" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0"/>
+  <testcase name="" classname="| 10 | extendido | 20 | 3 | 2 |" time="0.0"/>
+  <testcase name="Dado um filme com estoque de 2 unidades" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.0">
+    <system-out><![CDATA[
+  @esse
+  Esquema do Cenário: Deve dar condições conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugarFilme.feature:39&amp#27;[0m
+    &amp#27;[32mDado &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                       &amp#27;[90m# AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mque o preço do aluguel seja R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                           &amp#27;[90m# AluguarFilmeSteps.queOPreçoDoAluguelSejaR$(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32mque o tipo do aluguel seja &amp#27;[0m&amp#27;[32m&amp#27;[1mextendido&amp#27;[0m                        &amp#27;[90m# AluguarFilmeSteps.queOTipoDoAluguelSejaExtendido(String)&amp#27;[0m
+    &amp#27;[32mQuando &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                                 &amp#27;[90m# AluguarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo preço do aluguel será R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m                           &amp#27;[90m# AluguarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m dias&amp#27;[0m                            &amp#27;[90m# AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)&amp#27;[0m
+    &amp#27;[32mE &amp#27;[0m&amp#27;[32ma pontuação será de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m pontos&amp#27;[0m                                &amp#27;[90m# AluguarFilmeSteps.aPontuaçãoSeráDePontos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="E que o preço do aluguel seja R$ 5" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.0"/>
+  <testcase name="E que o tipo do aluguel seja semanal" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.0"/>
+  <testcase name="Quando alugar" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.0"/>
+  <testcase name="Então o preço do aluguel será R$ 15" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.0"/>
+  <testcase name="E a data de entrega será em 7 dias" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.0"/>
+  <testcase name="E a pontuação será de 3 pontos" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.0"/>
+  <testcase name="" classname="| 5 | semanal | 15 | 7 | 3 |" time="0.001"/>
+</testsuite>

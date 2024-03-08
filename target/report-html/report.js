@@ -78,14 +78,14 @@ formatter.match({
   "location": "AluguarFilmeSteps.umFilme(DataTable)"
 });
 formatter.result({
-  "duration": 451023000,
+  "duration": 92116900,
   "status": "passed"
 });
 formatter.match({
   "location": "AluguarFilmeSteps.alugar()"
 });
 formatter.result({
-  "duration": 12191600,
+  "duration": 3170800,
   "status": "passed"
 });
 formatter.match({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.oPreçoDoAluguelSeráR(int)"
 });
 formatter.result({
-  "duration": 1569800,
+  "duration": 3879800,
   "status": "passed"
 });
 formatter.match({
@@ -111,7 +111,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)"
 });
 formatter.result({
-  "duration": 2880300,
+  "duration": 3703300,
   "status": "passed"
 });
 formatter.match({
@@ -124,7 +124,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.oEstoqueDoFilmeSeráUnidade(int)"
 });
 formatter.result({
-  "duration": 316900,
+  "duration": 121000,
   "status": "passed"
 });
 formatter.scenario({
@@ -165,21 +165,21 @@ formatter.match({
   "location": "AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)"
 });
 formatter.result({
-  "duration": 319900,
+  "duration": 145400,
   "status": "passed"
 });
 formatter.match({
   "location": "AluguarFilmeSteps.alugar()"
 });
 formatter.result({
-  "duration": 59200,
+  "duration": 52900,
   "status": "passed"
 });
 formatter.match({
   "location": "AluguarFilmeSteps.nãoSeráPossívelPorFaltaDeEstoque()"
 });
 formatter.result({
-  "duration": 245500,
+  "duration": 35000,
   "status": "passed"
 });
 formatter.match({
@@ -192,7 +192,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.oEstoqueDoFilmeSeráUnidade(int)"
 });
 formatter.result({
-  "duration": 63800,
+  "duration": 91200,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -376,7 +376,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)"
 });
 formatter.result({
-  "duration": 158200,
+  "duration": 102400,
   "status": "passed"
 });
 formatter.match({
@@ -389,7 +389,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOPreçoDoAluguelSejaR$(int)"
 });
 formatter.result({
-  "duration": 81600,
+  "duration": 101100,
   "status": "passed"
 });
 formatter.match({
@@ -402,14 +402,14 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOTipoDoAluguelSejaExtendido(String)"
 });
 formatter.result({
-  "duration": 125900,
+  "duration": 56600,
   "status": "passed"
 });
 formatter.match({
   "location": "AluguarFilmeSteps.alugar()"
 });
 formatter.result({
-  "duration": 67800,
+  "duration": 63300,
   "status": "passed"
 });
 formatter.match({
@@ -422,7 +422,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.oPreçoDoAluguelSeráR$(int)"
 });
 formatter.result({
-  "duration": 116500,
+  "duration": 90600,
   "status": "passed"
 });
 formatter.match({
@@ -435,7 +435,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)"
 });
 formatter.result({
-  "duration": 381500,
+  "duration": 253200,
   "status": "passed"
 });
 formatter.match({
@@ -448,7 +448,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aPontuaçãoSeráDePontos(int)"
 });
 formatter.result({
-  "duration": 112400,
+  "duration": 108100,
   "status": "passed"
 });
 formatter.scenario({
@@ -525,7 +525,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)"
 });
 formatter.result({
-  "duration": 111700,
+  "duration": 85400,
   "status": "passed"
 });
 formatter.match({
@@ -538,7 +538,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOPreçoDoAluguelSejaR$(int)"
 });
 formatter.result({
-  "duration": 74900,
+  "duration": 90500,
   "status": "passed"
 });
 formatter.match({
@@ -551,14 +551,14 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOTipoDoAluguelSejaExtendido(String)"
 });
 formatter.result({
-  "duration": 55100,
+  "duration": 49700,
   "status": "passed"
 });
 formatter.match({
   "location": "AluguarFilmeSteps.alugar()"
 });
 formatter.result({
-  "duration": 72600,
+  "duration": 60900,
   "status": "passed"
 });
 formatter.match({
@@ -571,7 +571,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.oPreçoDoAluguelSeráR$(int)"
 });
 formatter.result({
-  "duration": 103500,
+  "duration": 66100,
   "status": "passed"
 });
 formatter.match({
@@ -584,7 +584,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)"
 });
 formatter.result({
-  "duration": 291100,
+  "duration": 246100,
   "status": "passed"
 });
 formatter.match({
@@ -597,7 +597,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aPontuaçãoSeráDePontos(int)"
 });
 formatter.result({
-  "duration": 107500,
+  "duration": 44800,
   "status": "passed"
 });
 formatter.scenario({
@@ -674,7 +674,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)"
 });
 formatter.result({
-  "duration": 297000,
+  "duration": 73000,
   "status": "passed"
 });
 formatter.match({
@@ -687,7 +687,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOPreçoDoAluguelSejaR$(int)"
 });
 formatter.result({
-  "duration": 652200,
+  "duration": 96300,
   "status": "passed"
 });
 formatter.match({
@@ -700,14 +700,14 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOTipoDoAluguelSejaExtendido(String)"
 });
 formatter.result({
-  "duration": 81000,
+  "duration": 109900,
   "status": "passed"
 });
 formatter.match({
   "location": "AluguarFilmeSteps.alugar()"
 });
 formatter.result({
-  "duration": 82200,
+  "duration": 128100,
   "status": "passed"
 });
 formatter.match({
@@ -720,7 +720,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.oPreçoDoAluguelSeráR$(int)"
 });
 formatter.result({
-  "duration": 90300,
+  "duration": 58300,
   "status": "passed"
 });
 formatter.match({
@@ -733,7 +733,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)"
 });
 formatter.result({
-  "duration": 340100,
+  "duration": 180200,
   "status": "passed"
 });
 formatter.match({
@@ -746,7 +746,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aPontuaçãoSeráDePontos(int)"
 });
 formatter.result({
-  "duration": 76100,
+  "duration": 44500,
   "status": "passed"
 });
 formatter.scenario({
@@ -823,7 +823,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.umFilmeComEstoqueDeUnidades(int)"
 });
 formatter.result({
-  "duration": 116000,
+  "duration": 71700,
   "status": "passed"
 });
 formatter.match({
@@ -836,7 +836,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOPreçoDoAluguelSejaR$(int)"
 });
 formatter.result({
-  "duration": 65900,
+  "duration": 42700,
   "status": "passed"
 });
 formatter.match({
@@ -849,14 +849,14 @@ formatter.match({
   "location": "AluguarFilmeSteps.queOTipoDoAluguelSejaExtendido(String)"
 });
 formatter.result({
-  "duration": 122600,
+  "duration": 41800,
   "status": "passed"
 });
 formatter.match({
   "location": "AluguarFilmeSteps.alugar()"
 });
 formatter.result({
-  "duration": 78200,
+  "duration": 67600,
   "status": "passed"
 });
 formatter.match({
@@ -869,7 +869,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.oPreçoDoAluguelSeráR$(int)"
 });
 formatter.result({
-  "duration": 100600,
+  "duration": 70800,
   "status": "passed"
 });
 formatter.match({
@@ -882,7 +882,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aDataDeEntregaSeráEmDias(int)"
 });
 formatter.result({
-  "duration": 355000,
+  "duration": 273100,
   "status": "passed"
 });
 formatter.match({
@@ -895,7 +895,7 @@ formatter.match({
   "location": "AluguarFilmeSteps.aPontuaçãoSeráDePontos(int)"
 });
 formatter.result({
-  "duration": 108600,
+  "duration": 55500,
   "status": "passed"
 });
 });
